@@ -103,7 +103,7 @@ For integers beyond the current cover of this library, the function raises a `Va
 
 ## Background
 
-Spanish ordinals agree with the noun they modify in both **gender** (*-o* / *-a*) and **number** (*-os* / *-as*). The *ésimo* family of ordinals is the standard form for numbers above twelve and is used in formal, technical, and academic writing. For casual writing, the -avo/-ava form is more common.
+Spanish ordinals agree with the noun they modify in both **gender** (_-o_ / _-a_) and **number** (_-os_ / _-as_). The *ésimo* family of ordinals is the standard form for numbers above twelve and is used in formal, technical, and academic writing. For casual writing, the _-avo_/_-ava_ form is more common.
 
 For some approved examples of this kind of spanish ordinals, look at the "Ordinales" column [here](https://www.rae.es/buen-uso-espa%C3%B1ol/tabla-de-numerales).
 
