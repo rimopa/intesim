@@ -58,7 +58,6 @@ def _root(n: int, g: Literal["M", "F"], p: bool = False) -> str:
             return "segund"
         case 3:
             return "tercer"
-            # Also "tercer" by itself, short of "tercero"
         case 4:
             return "cuart"
         case 5:
@@ -215,16 +214,19 @@ def intesim(number: int, gender: Literal["M", "F"], plural=False, before_noun=Fa
 
 if __name__ == "__main__":
     from random import randint
-
     print("-" * 18)
     print(f"El Entero Es Ésimo")
     print("-" * 18)
-    NUMS = (135, 222, 368, 451, 599, 627, 742,
-            888, 911, 1363, 4001, 124_567, 987_654)
+    NUMS = (randint(1, 9), randint(10, 99), randint(100, 999),
+            randint(1_000, 9_999), randint(10_000, 99_999),
+            randint(100_000, 999_999), randint(1_000_000, 9_999_999),
+            randint(10_000_000, 99_999_999),
+            randint(100_000_000, 999_999_999))
     for a in NUMS:
-        print(
-            f"{a}: {intesim(a,
-                            ("M", "F")[randint(0, 1)],
-                            (True, False)[randint(0, 1)])
-                    }"
-        )
+        print(f"{a}:{" " * (10 - len(str(a)))}{
+            intesim(a,
+                    gender=("M", "F")[randint(0, 1)],
+                    plural=(True, False)[randint(0, 1)],
+                    before_noun=(True, False)[randint(0, 1)]
+                    )}"
+              )
