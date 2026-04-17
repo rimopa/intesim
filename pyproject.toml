@@ -13,7 +13,7 @@ authors = [{ name = "rimopa", email = "rimopapomir@gmail.com" }]
 keywords = ["spanish", "ordinal", "numbers", "linguistics"]
 classifiers = [
     "Programming Language :: Python :: 3",
-    ## IMPORTANT: LICENSE HERE
+    "License :: OSI Approved :: Apache Software License",
 ]
 
 [project.urls]
