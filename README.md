@@ -10,9 +10,6 @@ intesim(5, "F")           # → "quinta"
 intesim(21, "M", True)    # → "vigésimos primeros"
 intesim(1000, "F")        # → "milésima"
 ```
-Requires Python 3.10 or higher.
-
-<!--Wish we're able to do this:
 
 ---
 
@@ -22,9 +19,9 @@ Requires Python 3.10 or higher.
 pip install intesim
 ```
 
----
+Requires Python 3.10 or higher.
 
--->
+---
 
 ## Usage
 
