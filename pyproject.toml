@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "intesim"
+version = "0.1.0"
+description = "Spanish ordinal number generator"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "rimopa", email = "rimopapomir@gmail.com" }]
+keywords = ["spanish", "ordinal", "numbers", "linguistics"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    ## IMPORTANT: LICENSE HERE
+]
+
+[project.urls]
+Homepage = "https://github.com/rimopa/intesim"
