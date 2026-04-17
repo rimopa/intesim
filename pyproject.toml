@@ -31,4 +31,4 @@ Homepage = "https://github.com/rimopa/intesim"
 Issues = "https://github.com/rimopa/intesim/issues"
 
 [tool.hatch.build.targets.wheel]
-packages = ["intesim"]
+packages = ["src/intesim"]
